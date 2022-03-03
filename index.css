@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+body{
+    margin:0;
+    padding:0;
+    
+    background-size:cover;
+    background-color: #17182f;
+    
+}
+#keep 
+{
+    font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+  color:green;
+  font-family: 'Lato';
+  text-align: center;
+  font-style: italic;
+}
+.box{
+    width:500px;
+    padding: 30px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: black;  
+}
+.box:hover{
+    box-shadow: 5px 10px orange;
+
+}
+.box h1
+{
+    color:violet;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid yellow;
+    padding: 14px 30px;
+    width:300px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition:0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width:270px;
+    border-color:orange;
+}
+.box input[type="text"]:hover,.box input[type="password"]:hover{
+    box-shadow: 2px 2px orange;
+}
+.box input[type = "submit"]{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid yellow;
+    padding:14px 35px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition:0.25px;
+    cursor:pointer;
+}
+.box input[type = "submit"]:hover{
+    background:orange;
+    
+}
